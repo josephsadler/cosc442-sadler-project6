@@ -44,7 +44,7 @@
 <tr>
 	<td>type</td>
 	<td>name=tourname</td>
-	<td>Towson</td>
+	<td>Fenway Park</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -55,11 +55,6 @@
 	<td>type</td>
 	<td>name=adultprice</td>
 	<td>40</td>
-</tr>
-<tr>
-	<td>selectAndWait</td>
-	<td>select2-drop-mask</td>
-	<td>Adventure</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -82,9 +77,14 @@
 	<td>2</td>
 </tr>
 <tr>
+	<td>runScript</td>
+	<td>dom=document.getElementById(&quot;locationid1&quot;).setAttribute(&quot;value&quot;, &quot;Boston, United States&quot;);</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=mapaddress</td>
-	<td>7800 york road</td>
+	<td>4 Yawkey Way, Boston, MA, United States</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -94,14 +94,13 @@
 <tr>
 	<td>assertTextPresent</td>
 	<td></td>
-	<td>Towson</td>
+	<td>Fenway Park</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>css=i.fa.fa-sign-out</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
